@@ -1,0 +1,32 @@
+---
+title: "Forests"
+author: "Olivia"
+date: "2023-10-09"
+output: html_document
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Set things up 
+
+```{r}
+rm(list = ls())
+library(ggplot2)
+library(dplyr)
+library(here)
+```
+

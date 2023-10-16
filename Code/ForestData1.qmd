@@ -1,0 +1,30 @@
+---
+title: "Oct16"
+author: "Olivia"
+format: html
+---
+
+## Introduction
+
+We're going to look at some forest ecology data
+
+Set things up
+
+```{r}
+rm(list = ls()) #clear R's brain 
+library(here)
+library(ggplot2)
+library(dplyr)
+```
+
+
+Now pull in some data
+```{r}
+Trees <- read.csv(here("Data", "Forest_Trees_17_21.csv"), stringsAsFactors = TRUE)
+#string = character data
+#factors = categorical data 
+```
+
+
+
+
